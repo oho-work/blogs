@@ -84,9 +84,14 @@ export default defineUserConfig({
         sidebar: {
             '/Resource/': [
                 {
-                    text: '资源文章',
+                    text: 'JetBrains',
                     collapsible: true,
-                    children: ['JetBrains']
+                    children: ['/Resource/JetBrains/jetbrains.md']
+                },
+                {
+                    text: 'Navicate',
+                    collapsible: true,
+                    children: ['/Resource/Navicate/navicate.md']
                 }
             ]
         },
