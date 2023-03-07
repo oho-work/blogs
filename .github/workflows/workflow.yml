@@ -1,9 +1,8 @@
-name: blogs-workflow
+name: blogs-workflows
 
-on:
-  # 每当 push 到 master 分支时触发部署
-  push:
-    branches: [ master ]
+# 每当 push 到 master 分支时触发部署
+on: push
+
 
 jobs:
   docs:
