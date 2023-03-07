@@ -33,37 +33,63 @@ export default defineUserConfig({
                 children: [
                     {
                         text: "爬虫",
-                        link: "/readme.md"
+                        link: "/Python/Spider/readme.md"
                     },
                     {
                         text: "后端",
-                        link: "/readme.md"
+                        link: "/Python/Server/readme.md"
                     }
                 ]
             },
             {
                 text: "Golang",
-                link: "/readme.md"
+                children: [
+                    {
+                        text: "后端",
+                        link: "/Golang/Server/readme.md"
+                    }
+                ]
             },
             {
                 text: "Linux",
-                link: "/readme.md"
+                // link: "/readme.md"
             },
             {
                 text: "Database",
-                link: "/readme.md"
+                children: [
+                    {
+                        text: "Mongodb",
+                        link: "/Database/Mongodb/readme.md"
+                    },
+                    {
+                        text: "Mysql",
+                        link: "/Database/Mysql/readme.md"
+                    },
+                    {
+                        text: "Redis",
+                        link: "/Database/Redis/readme.md"
+                    }
+                ]
             },
             {
                 text: "DevOps",
-                link: "/readme.md"
+                // link: "/readme.md"
             },
             {
                 text: "Resource",
-                link: "/readme.md"
+                link: "/Resource/readme.md"
             },
         ],
         // 侧边栏
-        sidebar: {},
+        sidebar: {
+            '/Resource/': [
+                {
+                    text: '资源文章',
+                    collapsible: true,
+                    children: ['JetBrains']
+                }
+            ]
+        },
     }),
     plugins: [
         mdEnhancePlugin({
