@@ -1,4 +1,6 @@
-# my-docs
-我的个人学习文档
+# 这是我的学习博客仓库
+github地址：https://github.com/oho-work/blogs
 
-线上地址：https://oho_work.github.io/blogs/
+blogs地址：https://oho-work.github.io/blogs/
+
+VuePress框架文档：https://v2.vuepress.vuejs.org/zh/
