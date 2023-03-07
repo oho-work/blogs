@@ -33,11 +33,11 @@ export default defineUserConfig({
                 children: [
                     {
                         text: "爬虫",
-                        link: "/Python/Spider/readme.md"
+                        link: "/Python/Spider/spider.md"
                     },
                     {
                         text: "后端",
-                        link: "/Python/Server/readme.md"
+                        link: "/Python/Server/server.md"
                     }
                 ]
             },
@@ -46,38 +46,38 @@ export default defineUserConfig({
                 children: [
                     {
                         text: "后端",
-                        link: "/Golang/Server/readme.md"
+                        link: "/Golang/Server/server.md"
                     }
                 ]
             },
             {
                 text: "Linux",
-                // link: "/readme.md"
+                link: "/Linux/linux.md"
             },
             {
                 text: "Database",
                 children: [
                     {
                         text: "Mongodb",
-                        link: "/Database/Mongodb/readme.md"
+                        link: "/Database/Mongodb/mongodb.md"
                     },
                     {
                         text: "Mysql",
-                        link: "/Database/Mysql/readme.md"
+                        link: "/Database/Mysql/mysql.md"
                     },
                     {
                         text: "Redis",
-                        link: "/Database/Redis/readme.md"
+                        link: "/Database/Redis/redis.md"
                     }
                 ]
             },
             {
-                text: "DevOps",
-                // link: "/readme.md"
+                text: "Devops",
+                link: "/Devops/devops.md"
             },
             {
                 text: "Resource",
-                link: "/Resource/readme.md"
+                link: "/Resource/resource.md"
             },
         ],
         // 侧边栏
