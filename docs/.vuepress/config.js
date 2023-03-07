@@ -8,9 +8,9 @@ export default defineUserConfig({
     // 语言
     lang: 'zh-CN',
     // 网站title
-    title: '学习笔记',
+    title: 'IT学习笔记',
     // 描述
-    description: '学习笔记',
+    description: '这是OHO的个人学习笔记博客网站',
     // 这是往 index.html 文件的头部添加的内容，我这里添加了网站的图标，也就是存放在 public 中的 icon 图片
     head: [
         [
@@ -25,7 +25,40 @@ export default defineUserConfig({
         // 顶部导航栏
         navbar: [
             {
-                text: "首页",
+                text: "Index",
+                link: "/readme.md"
+            },
+            {
+                text: "Python",
+                children: [
+                    {
+                        text: "爬虫",
+                        link: "/readme.md"
+                    },
+                    {
+                        text: "后端",
+                        link: "/readme.md"
+                    }
+                ]
+            },
+            {
+                text: "Golang",
+                link: "/readme.md"
+            },
+            {
+                text: "Linux",
+                link: "/readme.md"
+            },
+            {
+                text: "Database",
+                link: "/readme.md"
+            },
+            {
+                text: "DevOps",
+                link: "/readme.md"
+            },
+            {
+                text: "Resource",
                 link: "/readme.md"
             },
         ],
