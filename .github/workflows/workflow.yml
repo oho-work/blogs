@@ -1,6 +1,6 @@
 name: blogs-workflows
 
-# 每当 push 到 master 分支时触发部署
+# 每当 push 时触发部署
 on: push
 
 

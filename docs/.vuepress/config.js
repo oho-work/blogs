@@ -73,7 +73,16 @@ export default defineUserConfig({
             },
             {
                 text: "Devops",
-                link: "/Devops/devops.md"
+                children: [
+                    {
+                        text: "Docker",
+                        link: "/Devops/Docker/docker.md"
+                    },
+                    {
+                        text: "Git",
+                        link: "/Devops/Git/git.md"
+                    }
+                ]
             },
             {
                 text: "Resource",
@@ -92,6 +101,20 @@ export default defineUserConfig({
                     text: 'Navicate',
                     collapsible: true,
                     children: ['/Resource/Navicate/navicate.md']
+                }
+            ],
+            '/Devops/Docker/': [
+                {
+                    text: '基础',
+                    collapsible: true,
+                    children: ['/Devops/Docker/Install/install.md', '/Devops/Docker/Init/init.md']
+                }
+            ],
+            '/Devops/Git/': [
+                {
+                    text: '基础',
+                    collapsible: true,
+                    children: ['/Devops/Git/Install/install.md', '/Devops/Git/Init/init.md']
                 }
             ]
         },
