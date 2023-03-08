@@ -14,13 +14,13 @@ export default defineUserConfig({
     // 这是往 index.html 文件的头部添加的内容，我这里添加了网站的图标，也就是存放在 public 中的 icon 图片
     head: [
         [
-            'link', {rel: 'icon', href: '/blogs/icon.png'}
+            'link', {rel: 'icon', href: '/blogs/icon.svg'}
         ]
     ],
     // 这里使用的是vuepress-theme-hope主题
     theme: hopeTheme({
         // 这是侧边栏标题的图标
-        logo: '/icon.png',
+        logo: '/icon.svg',
         // iconAssets: "fontawesome",
         // 顶部导航栏
         navbar: [
@@ -87,6 +87,10 @@ export default defineUserConfig({
             {
                 text: "Resource",
                 link: "/Resource/resource.md"
+            },
+            {
+                text: "GitHub",
+                link: "https://github.com/oho-work/blogs",
             },
         ],
         // 侧边栏
