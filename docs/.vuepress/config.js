@@ -108,14 +108,24 @@ export default defineUserConfig({
                     text: '基础',
                     collapsible: true,
                     children: ['/Devops/Docker/Install/install.md', '/Devops/Docker/Init/init.md']
-                }
+                },
+                {
+                    text: '进阶',
+                    collapsible: true,
+                    children: ['/Devops/Docker/Advance/advance.md']
+                },
             ],
             '/Devops/Git/': [
                 {
                     text: '基础',
                     collapsible: true,
                     children: ['/Devops/Git/Install/install.md', '/Devops/Git/Init/init.md']
-                }
+                },
+                {
+                    text: '进阶',
+                    collapsible: true,
+                    children: ['/Devops/Docker/Advance/advance.md']
+                },
             ]
         },
     }),
