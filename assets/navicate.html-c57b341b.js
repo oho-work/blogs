@@ -1,0 +1,1 @@
+import{_ as a,W as t,X as c,Z as e,$ as n}from"./framework-f0f0be50.js";const r={},s=e("h1",{id:"navicate",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#navicate","aria-hidden":"true"},"#"),n(" Navicate")],-1),o=[s];function i(_,d){return t(),c("div",null,o)}const l=a(r,[["render",i],["__file","navicate.html.vue"]]);export{l as default};

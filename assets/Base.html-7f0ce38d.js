@@ -1,0 +1,1 @@
+import{_ as a,W as t,X as s,Z as e,$ as c}from"./framework-f0f0be50.js";const r={},o=e("h1",{id:"基础命令",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#基础命令","aria-hidden":"true"},"#"),c(" 基础命令")],-1),n=[o];function _(d,i){return t(),s("div",null,n)}const l=a(r,[["render",_],["__file","Base.html.vue"]]);export{l as default};

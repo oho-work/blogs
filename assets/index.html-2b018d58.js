@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6fcd8fc1","path":"/Resource/JetBrains/","title":"Jet Brains","lang":"zh-CN","frontmatter":{"title":"Jet Brains","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0.03,"words":9},"filePathRelative":null}');export{e as data};

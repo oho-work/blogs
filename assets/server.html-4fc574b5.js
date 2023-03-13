@@ -1,0 +1,1 @@
+import{_ as r,W as t,X as a,Z as e,$ as s}from"./framework-f0f0be50.js";const c={},o=e("h1",{id:"后端",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#后端","aria-hidden":"true"},"#"),s(" 后端")],-1),n=[o];function _(d,i){return t(),a("div",null,n)}const l=r(c,[["render",_],["__file","server.html.vue"]]);export{l as default};
