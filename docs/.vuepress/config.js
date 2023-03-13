@@ -32,6 +32,10 @@ export default defineUserConfig({
                 text: "Python",
                 children: [
                     {
+                        text: "基础",
+                        link: "/Python/Base/install.md"
+                    },
+                    {
                         text: "爬虫",
                         link: "/Python/Spider/spider.md"
                     },
@@ -52,7 +56,16 @@ export default defineUserConfig({
             },
             {
                 text: "Linux",
-                link: "/Linux/linux.md"
+                children: [
+                    {
+                        text: "基础命令",
+                        link: "/Linux/Command/Base.md"
+                    },
+                    {
+                        text: "常用命令",
+                        link: "/Linux/Command/Common.md"
+                    },
+                ]
             },
             {
                 text: "Database",

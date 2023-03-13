@@ -1,7 +1,8 @@
 # 这是我的学习博客仓库
 github地址：https://github.com/oho-work/blogs
 
-blogs地址：https://oho-work.github.io/blogs/
+blogs地址：https://o
+ho-work.github.io/blogs/
 
 # 二师弟的学习博客仓库
 github地址：https://github.com/bkk1024/docs
